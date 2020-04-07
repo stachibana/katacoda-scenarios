@@ -1,3 +1,4 @@
+#!/bin/bash
 # clone starter code
 git clone https://github.com/line/line-liff-v2-starter.git
 # download heroku cli
