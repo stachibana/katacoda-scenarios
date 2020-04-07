@@ -2,7 +2,7 @@
   "title": "Hello",
   "description": "Hello Katacoda!",
   "difficulty": "Beginner",
-  "time": "0.5",
+  "time": "5 minutes",
   "details": {
     "steps": [
       {
@@ -18,9 +18,13 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal-split"
+    "showide": true,
+    "ide": "ssh host01 '/opt/start-vscode.sh'",
+    "idePort": 23000,
+    "hideintro": false,
+    "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "python"
+    "imageid": "ubuntu"
   }
 }
