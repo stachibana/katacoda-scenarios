@@ -13,6 +13,22 @@
 `apt-get update
 apt-get install zlib1g-dev -y`{{execute}}
 
+### libsqlite3-dev のインストール
+
+`apt-get install libsqlite3-dev -y`{{execute}}
+
+### gitの利用準備
+
+`git config --global user.email ${your_mail}`
+
+<font color="red">※ `${your_mail}` 部分はご自身のメールアドレスに置き換えてください。</font><br>
+
+`git config --global user.name ${your_name}`
+
+<font color="red">※ `${your_name}` 部分はご自身の名前に置き換えてください。</font><br>
+
+以上でターミナルとIDEの準備は完了です。
+
 ### Ruby 2.7.1とngrokのインストール
 
 `git clone https://github.com/rbenv/rbenv.git ~/.rbenv
@@ -29,21 +45,6 @@ ruby -v
 
 ※ 5分ほどかかりますのでそのままお待ち下さい。ページを再読込するとはじめからやり直しになりますのでご注意下さい。
 
-### libsqlite3-dev のインストール
-
-`apt-get install libsqlite3-dev -y`{{execute}}
-
-### gitの利用準備
-
-`git config --global user.email ${your_mail}`
-
-<font color="red">※ `${your_mail}` 部分はご自身のメールアドレスに置き換えてください。</font><br>
-
-`git config --global user.name ${your_name}`
-
-<font color="red">※ `${your_name}` 部分はご自身の名前に置き換えてください。</font><br>
-
-以上でターミナルとIDEの準備は完了です。
 
 ## 他
 
