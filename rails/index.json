@@ -1,22 +1,15 @@
 {
-  "title": "Rails de environment",
-  "description": "Hello Ruby!",
+  "title": "Ruby 2.7.1 + ngrok環境",
+  "description": "Ruby 2.7.1 + ngrok環境のシェルとIDEです。",
   "difficulty": "Beginner",
-  "time": "5 minutes",
+  "time": "10 minutes",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Ruby 2.7.1 and ngrok",
         "text": "step1.md"
       }
-    ],
-    "intro": {
-      "text": "intro.md",
-      "code": "intro_code.sh"
-    },
-    "finish": {
-      "text": "finish.md"
-    }
+    ]
   },
   "environment": {
     "hideintro": true,

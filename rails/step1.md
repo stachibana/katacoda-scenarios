@@ -1,11 +1,11 @@
-# 環境構築
+# About
 
-本ハンズオンでは以下の環境を利用します。
+以下の環境をオンライン上に構築します。
 
 * Ruby 2.7.1
 * ngrok
 
-## 環境構築
+## 構築
 
 コマンド右下端の矢印をクリックすることで自動的に実行できます。
 
@@ -29,8 +29,6 @@ ruby -v
 
 ※ 5分ほどかかりますのでそのままお待ち下さい。ページを再読込するとはじめからやり直しになりますのでご注意下さい。
 
-## サンプルプロジェクトのダウンロード
-
 ### libsqlite3-dev のインストール
 
 `apt-get install libsqlite3-dev -y`{{execute}}
@@ -45,15 +43,16 @@ ruby -v
 
 <font color="red">※ `${your_name}` 部分はご自身の名前に置き換えてください。</font><br>
 
-### プロジェクトのclone
+以上でターミナルとIDEの準備は完了です。
 
-`git clone https://github.com/4geru/rails-line-bot-lecture.git
-cd rails-line-bot-lecture`{{execute}}
+## 他
 
-### Gemのインストール
+### 環境の有効期限
 
-`bundle install`{{execute}}
+Katacodaで作成した環境は1時間程度で終了されます。
 
-## 設定ファイルの編集
+### ファイルの新規作成
 
-画面右側、Terminalの横の「IDE」タブをクリックして下さい。
+ファイルの新規作成はTerminalから可能です。例）`touch .env`{{execute}}
+
+変更は自動保存されます。
