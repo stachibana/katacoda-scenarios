@@ -28,3 +28,7 @@ rbenv global 2.7.1
 npm i -g ngrok
 ruby -v
 `{{execute}}
+
+`apt-get update
+apt-get install libsqlite3-dev
+`{{execute}}
