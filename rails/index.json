@@ -1,0 +1,31 @@
+{
+  "title": "Rails de environment",
+  "description": "Hello Ruby!",
+  "difficulty": "Beginner",
+  "time": "5 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code": "intro_code.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "showide": true,
+    "ide": "ssh host01 '/opt/start-vscode.sh'",
+    "idePort": 23000,
+    "hideintro": false,
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "dockerimage": "ruby"
+  }
+}
